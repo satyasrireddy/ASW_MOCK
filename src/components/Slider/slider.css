@@ -1,0 +1,149 @@
+
+
+.slider-container {
+  height: 450px;
+  width: 90%;
+  position: relative;
+  margin: 10px auto 10px auto;
+  overflow: hidden;
+  border:15px solid gray;
+}
+
+.active {
+  display: inline-block;
+}
+
+.inactive {
+  display: none;
+}
+
+.slides {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.slide-title,
+.slide-text {
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  text-align: left;
+  padding-left: 35px;
+  top: 40%;
+  z-index: 10;
+}
+
+.slide-title{
+  font-size: 3.5rem;
+
+}
+
+.slide-text {
+  top: 25%;
+  font-size: 2rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .slide-title {
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .slide-text {
+    top: 15%;
+    font-size: 1rem;
+    
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slide-image img{
+    max-width: 400px;
+    
+  }
+}
+
+
+.prev,
+.next {
+  color: transparent;
+  cursor: pointer;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 1rem;
+  margin-top: -3rem;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.slider-container:hover .prev,.slider-container:hover .next {
+  color: black
+}
+
+.slider-container:hover .prev:hover,
+.slider-container:hover .next:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.5s ease-in;
+}
+
+.next {
+  right: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.all-dots {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  top: 85%;
+  justify-content: center;
+  z-index: 200;
+}
+
+.dot {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0px 3px;
+  background-color: transparent;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.slider-container:hover .dot:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* .active-dot {
+  background-color: rgba(255, 255, 255, 0.5);
+} */
+
+.slider-container:hover .dot{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.slider-container:hover .active-dot{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.play-pause {
+  color: black;
+}

@@ -66,7 +66,7 @@ const OurProducts = () => {
     dots: true,
     appendDots: (dots) => <StyledDots>{dots}</StyledDots>,
     customPaging: () => (
-      <Box sx={{ height: 8, width: 30, backgroundColor: 'divider', display: 'inline-block', borderRadius: 4 }} />
+      <Box sx={{ height: 8, width: 20, backgroundColor: 'divider', display: 'inline-block', borderRadius: 4 }} />
     ),
   }
 
@@ -78,8 +78,8 @@ const OurProducts = () => {
           xs: 6,
           md: 8,
         },
-        pb: 14,
-        backgroundColor: 'background.default',
+        pb: 10,
+        backgroundColor: 'background.defaultblac',
       }}
     >
       <Container marginTop='40' maxWidth="lg">

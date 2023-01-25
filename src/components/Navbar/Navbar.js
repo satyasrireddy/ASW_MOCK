@@ -10,9 +10,9 @@ import arrow from "../../assets/img/chevron-down.svg";
 
 //IMPORTING SVG'S
 const pages = [
+  { title: "PreBuilts", href: "/pre_builts", arrow:false },
   { title: "Intel Custom PCs", href: "/intel_custom_pc", arrow:false },
   { title: "AMD Custom PCs", href: "/amd_custom_pc", arrow:false },
-  { title: "PreBuilts", href: "/pre_builts", arrow:false },
   { title: "Support", href: " ", arrow:true },
   { title: 'View Cart', href: "/shopping_cart", arrow:false }
 ];

@@ -12,9 +12,9 @@ const BottomBanner = () => {
   return (
     
     <Container bgcolor='black'> 
-     <Grid container className='resGrid'>
+     <Grid container >
      <Grid item xs={12}  >
-     <Card >
+     <Card sx={{my:2, border:10, borderColor:'gray'}}>
      <CardMedia 
      component='img'
       image={require("../../assets/banner-prebuilt.jpeg")} 
@@ -28,7 +28,7 @@ const BottomBanner = () => {
 
  
  
-  <Grid container spacing={2} marginTop={2}>
+  <Grid container spacing={2} marginTop={2} marginBottom={2}>
   <Grid item xs={12} md={6} sm={6} >
   <Card sx={{ maxWidth: 500, height: 550, bgcolor:"black", border:10, borderColor:'gray'}}>
       <CardMedia

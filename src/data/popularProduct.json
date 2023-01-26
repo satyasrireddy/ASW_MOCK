@@ -1,0 +1,57 @@
+[
+  {
+      "id": 1,
+      "cover": "AlphaSync_Diamond_V2_AMD_Ryzen_5_3600_Gaming_Desktop_PC_16GB_RAM_1T.jpeg",
+      "title": "AlphaSync Diamond V2 AMD Ryzen 5 3600 Gaming Desktop PC 16GB RAM 1T",
+      "rating": 5,
+      "ratingCount": 15,
+      "price": 1500,
+      "desc": ["AMD Ryzen 5 5600X 3.7GHz", "16GB RAM, 1TB Samsung SSD", "NVIDIA GeForce RTX 3060 Ti", "WIFI, Windows 11 Home", "3 Year Warranty (1yr parts 3yr labour)"]
+  },
+  {
+      "id": 2,
+      "cover": "AlphaSync_Meshify_2_Lite_Gaming_Desktop_PC.jpeg",
+      "title": "AlphaSync Meshify 2 Lite Gaming Desktop PC, AMD",
+      "rating": 4,
+      "ratingCount": 7,
+      "price": 1200,
+      "desc": ["AMD Ryzen 5 5600X 3.7GHz", "16GB RAM, 1TB Samsung SSD", "NVIDIA GeForce RTX 3060 Ti", "WIFI, Windows 11 Home", "3 Year Warranty (1yr parts 3yr labour)"]
+  },
+  {
+      "id": 3,
+      "cover": "AlphaSync_PBA_Diamond_Gaming_Desktop_PC_5600.jpeg",
+      "title": "AlphaSync PBA Diamond Gaming Desktop PC 5600X",
+      "rating": 4,
+      "ratingCount": 32,
+      "price": 1199,
+      "desc": ["AMD Ryzen 5 5600X 3.7GHz", "16GB RAM, 1TB Samsung SSD", "ASUS NVIDIA GeForce RTX 3060Ti", "Windows 11 Home", "3 Year Warranty (1yr parts 3yr labour)"]
+  },
+  {
+      "id": 4,
+      "cover": "AlphaSync_PBA_ICUE_5000X_AMD_Ryzen_9_5950X_Gaming_Desktop_PC_32GB_RAM.jpeg",
+      "title": "AlphaSync PBA ICUE 5000X AMD Ryzen 9 5950X Gaming Desktop PC 32GB RAM",
+      "rating": 4,
+      "ratingCount": 6,
+      "price": 1499,
+      "desc": ["AMD Ryzen 5 5600X 3.7GHz", "16GB RAM, 1TB Samsung SSD", "NVIDIA GeForce RTX 3060 Ti", "WIFI, Windows 11 Home", "3 Year Warranty (1yr parts 3yr labour)"]
+  },
+  {
+      "id": 5,
+      "cover": "AlphaSync_PBA_Onyx_Gaming_Desktop_PC_AMD_Ryzen_5.jpeg",
+      "title": "AlphaSync PBA Onyx Gaming Desktop PC AMD Ryzen 5",
+      "rating": 4,
+      "ratingCount": 6,
+      "price": 1499,
+      "desc": ["AMD Ryzen 9 5950X 3.4GHz", "32GB RAM, 1TB SSD, 1TB SSD", "NVIDIA GeForce RTX 3080", "WiFi, Windows 11 Home", "3 Year Warranty (1yr parts 3yr labour)"]
+  },
+  {
+      "id": 6,
+      "cover": "AlphaSync_Pure_Base_Gaming_PC_AMD_Ryzen_7_5800X_16GB.jpeg",
+      "title": "AlphaSync Pure Base Gaming PC AMD Ryzen 7 5800X 16GB",
+      "rating": 4,
+      "ratingCount": 6,
+      "price": 1499,
+      "desc": ["AMD Ryzen 7 5800X 3.8GHz", "16GB RAM, 500GB SSD", "NVIDIA GeForce RTX 3070", "WiFi Windows 11 Home", "3 Year Warranty (1yr parts 3yr labour)"]
+  }
+
+]

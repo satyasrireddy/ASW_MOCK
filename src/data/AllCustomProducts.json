@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "cover": "Be_Quite_Pure_Base_500_Window_White.jpeg",
+      "title": "Be Quite Pure Base 500 Window White",
+      "rating": 5,
+      "ratingCount": 8,
+      "price": 999
+    },
+    {
+      "id": 2,
+      "cover": "Be_Quite_Pure_Base_500_Window.jpeg",
+      "title": "Be Quite Pure Base 500 Window",
+      "rating": 5,
+      "ratingCount": 15,
+      "price": 1299
+    },
+    {
+      "id": 3,
+      "cover": "Corsair_110Q_Black.jpeg",
+      "title": "Corsair 110Q Quiet Mid Tower ATX Case-Black",
+      "rating": 4,
+      "ratingCount": 7,
+      "price": 1399
+    },
+    {
+      "id": 4,
+      "cover": "Corsair_4000D_White.jpeg",
+      "title": "Corsair 4000D Tempered Glass Mid-Tower White",
+      "rating": 4,
+      "ratingCount": 12,
+      "price": 1349
+    },
+    {
+      "id": 5,
+      "cover": "Corsair_iCUE_4000x_Tower.jpeg",
+      "title": "Corsair iCUE 4000x RGB Tempered Glass Mid=Tower",
+      "rating": 4,
+      "ratingCount": 32,
+      "price": 1099
+    },
+    {
+      "id": 6,
+      "cover": "Fractal_Design_Pop_Air_White.jpeg",
+      "title": "Fractal Design Pop Air White TG Clear",
+      "rating": 5,
+      "ratingCount": 14,
+      "price": 1199
+    },
+    {
+      "id": 7,
+      "cover": "Lian-Li_PC-011_Dynamic_Black_Window.jpeg",
+      "title": "Lian-Li PC-011 Dynamic XL Alminium Midi-Tower-Black Window",
+      "rating": 4,
+      "ratingCount": 6,
+      "price": 1499
+    },
+    {
+      "id": 8,
+      "cover": "Corsair_iCUE_5000x_Black.jpeg",
+      "title": "Corsair iCUE 5000x RGB Tempered Galss Mid-Tower-Black",
+      "rating": 5,
+      "ratingCount": 8,
+      "price": 1149
+    },
+    {
+      "id": 9,
+      "cover": "Corsair_iCUE_5000x_White.jpeg",
+      "title": "Corsair iCUE 5000x RGB Tempered Galss Mid-Tower-White",
+      "rating": 5,
+      "ratingCount": 15,
+      "price": 1299
+    },
+    {
+      "id": 10,
+      "cover": "EG_Diamond_V2.jpg",
+      "title": "EG Diamond V2 ATX Tower",
+      "rating": 4,
+      "ratingCount": 7,
+      "price": 1299
+    },
+    {
+      "id": 11,
+      "cover": "EG_Sapphire_ARGB-White.jpeg",
+      "title": "EG Sapphire ARGB-White",
+      "rating": 4,
+      "ratingCount": 26,
+      "price": 1399
+    },
+    {
+      "id": 12,
+      "cover": "Fractal_Design_Pop_Mini_White.jpeg",
+      "title": "Fractal Design Pop Mini Air White TG Clear",
+      "rating": 4,
+      "ratingCount": 46,
+      "price": 1699
+    },
+    {
+      "id": 13,
+      "cover": "Fractal_Meshify_2_Lite_Black.jpeg",
+      "title": "Fractal Meshify 2 Lite RGB light Tint-Black",
+      "rating": 5,
+      "ratingCount": 14,
+      "price": 1299
+    },
+    {
+      "id": 14,
+      "cover": "Lian-Li_PC-011_Black_Window.jpeg",
+      "title": "Lian-Li PC-011 Tower-Black Window",
+      "rating": 4,
+      "ratingCount": 6,
+      "price": 1199
+    }
+  ]

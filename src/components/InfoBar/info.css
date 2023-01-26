@@ -1,0 +1,48 @@
+
+  h5
+   {
+    width: 100%;
+    animation: right_to_left 10s  infinite;
+    animation-delay: 2s;
+    font-weight: bold;
+    
+    
+  }
+  
+ 
+  
+  /* h2 {
+    text-align: right;
+    animation: left_to_right 3s ease;
+  } 
+
+   @keyframes left_to_right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+  */
+  @keyframes right_to_left {
+    from {
+      margin-left: 5%;
+    }
+    to {
+      margin-left: 0;
+    }
+  } 
+ 
+ 
+  
+
+  @media only screen and (max-width: 600px) {
+    h5 {
+
+        font-size: 6px;
+        animation:right_to_left 10s infinite;
+        text-align: center;
+      
+    }
+  }

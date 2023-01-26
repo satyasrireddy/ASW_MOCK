@@ -1,0 +1,21 @@
+#carouselExampleCaptions {
+    
+    border: 20px solid grey;
+    width:85%;
+    height: 480px;
+    margin:auto;
+}
+
+
+  .carousel-inner  img {
+    width:auto;
+    height:450px;
+  }
+
+  .carousel-caption h2, h4{
+    color:rgb(243, 239, 239);
+    font-weight: bolder;
+    
+    
+
+  }

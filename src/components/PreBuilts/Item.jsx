@@ -44,7 +44,11 @@ const PreBuiltItem = ({ id, title, price, cover, desc, discount }) => {
                 {value}
               </li>
             ))}
+<<<<<<< HEAD
       </CardContent>
+=======
+        </CardContent>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
       </CardActionArea>
       <CardContent sx={{ display: 'flex',padding:'5', bgcolor:'text.primary', width:'70'}}> 
       <Button sx={{bgcolor:'#fc3903', color:'white'}}> 25% off </Button>

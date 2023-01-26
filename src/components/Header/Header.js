@@ -40,7 +40,11 @@ const Header = () => {
             AS
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' } }}>
+<<<<<<< HEAD
           <Navbar changeDrawerState={()=>setOpenDrawer(false)} />
+=======
+            <Navbar />
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
           </Box>
         </Toolbar>
       </Container>

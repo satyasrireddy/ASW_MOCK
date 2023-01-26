@@ -2,9 +2,14 @@ import { ShoppingBasket } from '@mui/icons-material';
 import { Button, Paper, Rating } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+<<<<<<< HEAD
 import { useMediaQuery } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import { styled, useTheme } from "@mui/material/styles";
+=======
+import Typography from '@mui/material/Typography';
+import { styled } from "@mui/material/styles";
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
 import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlobalCartContext } from '../../context/CartContext';
@@ -18,8 +23,11 @@ const Item = styled(Paper)(({ theme }) => ({
   }));
 
 const ProductDetail = ({ id, title, desc, price, cover, rating, ratingCount }) => {
+<<<<<<< HEAD
   const { breakpoints } = useTheme()
   const matchMobileView = useMediaQuery(breakpoints.down('md'))
+=======
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
   const {addItemTocart}= useContext(GlobalCartContext);
   const navigate = useNavigate();
 
@@ -38,7 +46,11 @@ const ProductDetail = ({ id, title, desc, price, cover, rating, ratingCount }) =
 
   return (
     <Grid container spacing={2} padding={4}>
+<<<<<<< HEAD
         <Grid item xs={12} sm={7} lg={7}>
+=======
+        <Grid item xs={12} sm={6} md={6}>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
           <Box
             sx={{
               p: 2,
@@ -50,6 +62,7 @@ const ProductDetail = ({ id, title, desc, price, cover, rating, ratingCount }) =
               },
             }}
           >
+<<<<<<< HEAD
             <Item
               padding={2}
               sx={{
@@ -69,6 +82,18 @@ const ProductDetail = ({ id, title, desc, price, cover, rating, ratingCount }) =
           </Box>
         </Grid>
         <Grid item xs={12} sm={5} lg={5}>
+=======
+                <img
+                src={require("../../assets/img/Prebuild/" + cover)}
+                width={300}
+                height={400}
+                alt={"Products " + id}
+              />
+          
+          </Box>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
           <Box sx={{ mb: 2 }}>
           <Typography component="h3" variant="h2">
             {title}

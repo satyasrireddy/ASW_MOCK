@@ -2,6 +2,7 @@
   h5
    {
     width: 100%;
+<<<<<<< HEAD
     animation: right_to_left 10s  infinite;
     animation-delay: 2s;
     font-weight: bold;
@@ -19,23 +20,54 @@
    @keyframes left_to_right {
     from {
       margin-left: -100%;
+=======
+    
+  }
+  
+  h5 {
+    animation: right_to_left 10s  infinite;
+    animation-delay: 2s;
+    
+  }
+  
+  /* h2 {
+    text-align: right;
+    animation: left_to_right 3s ease;
+  } */
+  
+  @keyframes right_to_left {
+    from {
+      margin-left: 50%;
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
     }
     to {
       margin-left: 0;
     }
   }
+<<<<<<< HEAD
   */
   @keyframes right_to_left {
     from {
       margin-left: 5%;
+=======
+  /* 
+  @keyframes left_to_right {
+    from {
+      margin-left: -100%;
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
     }
     to {
       margin-left: 0;
     }
+<<<<<<< HEAD
   } 
  
  
   
+=======
+  }
+  */
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
 
   @media only screen and (max-width: 600px) {
     h5 {

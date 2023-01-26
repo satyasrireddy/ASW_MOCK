@@ -20,7 +20,11 @@ const ItemList = ({ items }) => (
 
     <Grid container spacing={4} p={3}>
       {items?.map((item) => (
+<<<<<<< HEAD
         <Grid item xs={12} sm={5} lg={4} key={item.id}>
+=======
+        <Grid item xs={12} sm={7} lg={4} key={item.id}>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
           <PreBuiltItem {...item} />
         </Grid>
       ))}

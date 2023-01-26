@@ -62,8 +62,13 @@ const Navbar = () => {
               "aria-labelledby": "basic-button",
             }}
           >
+<<<<<<< HEAD
             <MenuItem onClick={()=> navigate("Contact_Form")}>Contact Us</MenuItem>
             <MenuItem onClick={()=> navigate("FAQs")}>FAQs </MenuItem>
+=======
+            <MenuItem onClick={handleClose}>Contact Us</MenuItem>
+            <MenuItem onClick={handleClose}>FAQs </MenuItem>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
             <MenuItem onClick={handleClose}>About AS</MenuItem>
             <MenuItem onClick={handleClose}>Finance</MenuItem>
             <MenuItem onClick={handleClose}>Delivery Information</MenuItem>

@@ -25,6 +25,7 @@ const BottomBanner = () => {
    </Grid>
    </Grid>
    
+<<<<<<< HEAD
    <Grid item xs={12} md={6} sm={4} margin={2}> 
    <Typography variant="h1" color="white" align='center' fontWeight={'bold'}> Our Custom Range Products</Typography>
    
@@ -37,6 +38,16 @@ const BottomBanner = () => {
   <Card sx={{ margin:3, maxWidth: 400, height: 450, bgcolor:"black", border:10, borderColor:'gray'}}>
       <CardMedia
         sx={{ height: 300,}}
+=======
+
+ 
+ 
+  <Grid container spacing={2} marginTop={2} marginBottom={2}>
+  <Grid item xs={12} md={6} sm={6} >
+  <Card sx={{ maxWidth: 500, height: 550, bgcolor:"black", border:10, borderColor:'gray'}}>
+      <CardMedia
+        sx={{ height: 400,}}
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
         image={require("../../assets/intel_block.jpeg")}
         title="Intel Pcs"
       />
@@ -53,9 +64,15 @@ const BottomBanner = () => {
     </Card>
     </Grid>
     <Grid item xs={12} md={6} sm={6} >
+<<<<<<< HEAD
     <Card sx={{ margin:3, maxWidth: 400, height: 450, bgcolor:"black" , border:10, borderColor:'gray'}}>
       <CardMedia
         sx={{ height: 300,}}
+=======
+    <Card sx={{ maxWidth: 500, height: 550, bgcolor:"black" , border:10, borderColor:'gray'}}>
+      <CardMedia
+        sx={{ height: 400,}}
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
         image={require("../../assets/amd_block.jpeg")}
         title="AMd Pcs"
       />

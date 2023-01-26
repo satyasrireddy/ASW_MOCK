@@ -66,7 +66,11 @@ const OurProducts = () => {
     dots: true,
     appendDots: (dots) => <StyledDots>{dots}</StyledDots>,
     customPaging: () => (
+<<<<<<< HEAD
       <Box sx={{ height: 8, width: 30, backgroundColor: 'divider', display: 'inline-block', borderRadius: 4 }} />
+=======
+      <Box sx={{ height: 8, width: 20, backgroundColor: 'divider', display: 'inline-block', borderRadius: 4 }} />
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
     ),
   }
 
@@ -78,6 +82,7 @@ const OurProducts = () => {
           xs: 6,
           md: 8,
         },
+<<<<<<< HEAD
         pb: 14,
         backgroundColor: 'background.default',
       }}
@@ -85,6 +90,18 @@ const OurProducts = () => {
       <Container maxWidth="lg">
         <Grid container spacing={2}>
           <Grid item xs={12} md={3}>
+=======
+        pb: 10,
+        backgroundColor: 'background.defaultblac',
+      }}
+    >
+      <Container marginTop='40' maxWidth="lg">
+      <Typography variant="h1" textAlign={'center'} sx={{ mt: { xs: 0, md: 3}, fontSize: { xs: 30, md: 48 }}}>
+                Most Popular Products
+      </Typography>
+        <Grid container spacing={2} sx={{ ml: { xs: 0, md: 15 }}}>
+          <Grid item xs={12} md={4}>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
             <Box
               sx={{
                 height: '100%',
@@ -94,9 +111,13 @@ const OurProducts = () => {
                 justifyContent: { xs: 'center', md: 'flex-start' },
               }}
             >
+<<<<<<< HEAD
               <Typography variant="h1" sx={{ mt: { xs: 0, md: -5 }, fontSize: { xs: 30, md: 48 } }}>
                 Popular Products
               </Typography>
+=======
+              
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
             </Box>
           </Grid>
 

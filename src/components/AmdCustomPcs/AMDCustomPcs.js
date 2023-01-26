@@ -8,8 +8,12 @@ import {
   Select,
   Stack,
   Tooltip,
+<<<<<<< HEAD
   Typography,
   useMediaQuery
+=======
+  Typography
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
 } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import React, { useState } from "react";
@@ -19,7 +23,11 @@ import IconArrowForward from '@mui/icons-material/ArrowForward'
 import { default as allcustomPCData, default as customPcs } from "../../data/AllCustomProducts.json";
 import { cpuCoolers, graphicsCards, hddStorages, memoryTypes, motherboards, powerSupplies, processors, ssdNvmeStorages, ssdStorages } from "./SelectDatas";
 
+<<<<<<< HEAD
 import { styled, useTheme } from "@mui/material/styles";
+=======
+import { styled } from "@mui/material/styles";
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
 
 import { tooltipClasses } from "@mui/material/Tooltip";
 
@@ -70,8 +78,11 @@ const SliderArrow = (props) => {
 }
 
 function AmdCustomPCItemList() {
+<<<<<<< HEAD
   const { breakpoints } = useTheme()
   const matchMobileView = useMediaQuery(breakpoints.down('md'))
+=======
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
   const [selectedPc, setSelectedPc] = useState(allcustomPCData[0]);
   const [processor, setProcessor] = useState("AMD RYZEN 5 3600 EIGHT CORE CPU (3.6GHZ) 36MB CACHE");
   const [motherboard, setmotherboard] = useState("ASUS PRIME H610M-K D4 (12TH GEN MATX DDR4 LGA 1700 USB 3.2 RGB READY)");
@@ -87,14 +98,22 @@ function AmdCustomPCItemList() {
     dots: false,
     infinite: true,
     speed: 500,
+<<<<<<< HEAD
     slidesToShow: matchMobileView? 2: 7,
     slidesToScroll: matchMobileView? 2: 7,
+=======
+    slidesToShow: 7,
+    slidesToScroll: 7,
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
     initialSlide: 0,
     prevArrow: <SliderArrow type="prev" />,
     nextArrow: <SliderArrow type="next" />,
   };
   const featureCustomization = <Box
+<<<<<<< HEAD
   xs={12} sm={7} lg={7}
+=======
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
     sx={{
       p: 2,
       backgroundColor: "background.paper",
@@ -105,7 +124,11 @@ function AmdCustomPCItemList() {
       },
     }}
   >
+<<<<<<< HEAD
     <FormControl padding={2} fullWidth>
+=======
+    <FormControl padding={2}>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
       <CustomFormLabel>PROCESSOR (CPU)</CustomFormLabel>
       <Select
         labelId="demo-controlled-open-select-label"
@@ -231,7 +254,11 @@ function AmdCustomPCItemList() {
                 <Box
                   sx={{
                     p: 2,
+<<<<<<< HEAD
                     backgroundColor: "gray",
+=======
+                    backgroundColor: "background.paper",
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
                     borderRadius: 4,
                     transition: (theme) =>
                       theme.transitions.create(["box-shadow"]),
@@ -251,8 +278,13 @@ function AmdCustomPCItemList() {
                     >
                       <img
                         src={require("../../assets/img/PCS/" + item.cover)}
+<<<<<<< HEAD
                         width={matchMobileView? 150:200}
                 height={matchMobileView? 150:200}
+=======
+                        width={200}
+                        height={200}
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
                         alt={"Products " + item.id}
                         onClick={() => setSelectedPc(item)}
                       />
@@ -265,11 +297,19 @@ function AmdCustomPCItemList() {
         </Slider>
       </Stack>
       <Grid container spacing={2} padding={4}>
+<<<<<<< HEAD
         <Grid item xs={12} sm={5} lg={5}>
           <Box
             sx={{
               p: 2,
               backgroundColor: "gray",
+=======
+        <Grid item xs={6}>
+          <Box
+            sx={{
+              p: 2,
+              backgroundColor: "background.paper",
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
               borderRadius: 4,
               transition: (theme) => theme.transitions.create(["box-shadow"]),
               "&:hover": {
@@ -288,8 +328,13 @@ function AmdCustomPCItemList() {
             >
               <img
                 src={require("../../assets/img/PCS/" + selectedPc.cover)}
+<<<<<<< HEAD
                 width={matchMobileView? 280:400}
                 height={matchMobileView? 300:500}
+=======
+                width={400}
+                height={500}
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
                 alt={"Products " + selectedPc.id}
               />
             </Item>
@@ -305,13 +350,21 @@ function AmdCustomPCItemList() {
                   {"£" + selectedPc.price}
                 </Typography>
               </Box>
+<<<<<<< HEAD
               <Button variant="contained" sx={{fontSize: 24}} endIcon={<ArrowForward sx={{fontSize: 40}} />}>
+=======
+              <Button variant="contained" size="large" endIcon={<ArrowForward />}>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
                 Proceed
               </Button>
             </Box>
           </Box>
         </Grid>
+<<<<<<< HEAD
         <Grid item xs={12} sm={7} lg={7}>
+=======
+        <Grid item xs={6}>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
           {featureCustomization}
         </Grid>
       </Grid>

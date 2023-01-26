@@ -8,8 +8,12 @@ import {
   Select,
   Stack,
   Tooltip,
+<<<<<<< HEAD
   Typography,
   useMediaQuery
+=======
+  Typography
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
 } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import React, { useState } from "react";
@@ -19,10 +23,18 @@ import IconArrowForward from '@mui/icons-material/ArrowForward'
 import { default as allcustomPCData, default as customPcs } from "../../data/AllCustomProducts.json";
 import { cpuCoolers, graphicsCards, hddStorages, memoryTypes, motherboards, powerSupplies, processors, ssdNvmeStorages, ssdStorages } from "./SelectDatas";
 
+<<<<<<< HEAD
 import { styled, useTheme } from "@mui/material/styles";
 
 import { tooltipClasses } from "@mui/material/Tooltip";
 
+=======
+import { styled } from "@mui/material/styles";
+
+import { tooltipClasses } from "@mui/material/Tooltip";
+
+
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
 const CustomWidthTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} classes={{ popper: className }} />
 ))({
@@ -70,8 +82,11 @@ const SliderArrow = (props) => {
 }
 
 function CustomPCItemList() {
+<<<<<<< HEAD
   const { breakpoints } = useTheme()
   const matchMobileView = useMediaQuery(breakpoints.down('md'))
+=======
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
   const [selectedPc, setSelectedPc] = useState(allcustomPCData[0]);
   const [processor, setProcessor] = useState("INTEL CORE I3 FOUR CORE PROCESSOR I3-12100 (3.3GHZ) 12MB CACHE");
   const [motherboard, setmotherboard] = useState("ASUS PRIME H610M-K D4 (12TH GEN MATX DDR4 LGA 1700 USB 3.2 RGB READY)");
@@ -87,6 +102,7 @@ function CustomPCItemList() {
     dots: false,
     infinite: false,
     speed: 500,
+<<<<<<< HEAD
     slidesToShow: matchMobileView? 2:7,
     slidesToScroll: matchMobileView? 2:7,
     initialSlide: 0,
@@ -95,6 +111,41 @@ function CustomPCItemList() {
   };
   const featureCustomization = <Box
   xs={12} sm={7} lg={7}
+=======
+    slidesToShow: 6,
+    slidesToScroll: 6,
+    initialSlide: 0,
+    prevArrow: <SliderArrow type="prev" />,
+    nextArrow: <SliderArrow type="next" />,
+ responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ]
+  }
+  const featureCustomization = <Box
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
     sx={{
       p: 2,
       backgroundColor: "background.paper",
@@ -102,10 +153,17 @@ function CustomPCItemList() {
       transition: (theme) => theme.transitions.create(["box-shadow"]),
       "&:hover": {
         boxShadow: 2,
+<<<<<<< HEAD
       },
     }}
   >
     <FormControl padding={2} fullWidth>
+=======
+        },
+    }}
+  >
+    <FormControl padding={2} size={'small'} >
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
       <CustomFormLabel>PROCESSOR (CPU)</CustomFormLabel>
       <Select
         labelId="demo-controlled-open-select-label"
@@ -251,8 +309,13 @@ function CustomPCItemList() {
                     >
                       <img
                         src={require("../../assets/img/PCS/" + item.cover)}
+<<<<<<< HEAD
                         width={matchMobileView? 150:200}
                 height={matchMobileView? 150:200}
+=======
+                        width={200}
+                        height={200}
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
                         alt={"Products " + item.id}
                         onClick={() => setSelectedPc(item)}
                       />
@@ -264,8 +327,19 @@ function CustomPCItemList() {
           ))}
         </Slider>
       </Stack>
+<<<<<<< HEAD
       <Grid container spacing={2} padding={4}>
         <Grid item xs={12} sm={5} lg={5}>
+=======
+      <Box sx={{
+                display: "flex",
+                alignItems: "center",
+                flexWrap: "wrap",
+                justifyContent: "space-between",
+              }}> 
+      <Grid container spacing={2} padding={4}>
+        <Grid item xs={12}>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
           <Box
             sx={{
               p: 2,
@@ -288,12 +362,26 @@ function CustomPCItemList() {
             >
               <img
                 src={require("../../assets/img/PCS/" + selectedPc.cover)}
+<<<<<<< HEAD
                 width={matchMobileView? 280:400}
                 height={matchMobileView? 300:500}
                 alt={"Products " + selectedPc.id}
               />
             </Item>
             <Box
+=======
+                width={200}
+                height={300}
+                alt={"Products " + selectedPc.id}
+              />
+            </Item>
+            
+          </Box>
+        </Grid>
+        <Grid item xs={12}>
+          {featureCustomization}
+          <Box
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
               sx={{
                 display: "flex",
                 alignItems: "center",
@@ -309,6 +397,7 @@ function CustomPCItemList() {
                 Proceed
               </Button>
             </Box>
+<<<<<<< HEAD
           </Box>
         </Grid>
         <Grid item xs={12} sm={7} lg={7}>
@@ -316,6 +405,12 @@ function CustomPCItemList() {
         </Grid>
       </Grid>
     </Box>
+=======
+        </Grid>
+      </Grid>
+    </Box>
+    </Box>
+>>>>>>> 81ad4bad24d9e6063087e429d1491ee96435d88a
   );
 }
 
